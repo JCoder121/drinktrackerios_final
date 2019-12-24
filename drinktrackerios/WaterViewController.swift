@@ -13,9 +13,19 @@ class WaterViewController: UIViewController {
     //SET DRINKING WATER GOAL FOR 128 oz
     
     var goal: Double = 128
+    
+    @IBOutlet weak var displayLabel: UILabel!
+           
+    @IBOutlet weak var textField: UITextField!
+       
+       
+    @IBOutlet weak var waterprogress: UIProgressView!
+       
+    @IBOutlet weak var addButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        textField.keyboardType = UIKeyboardType.numberPad
         
         let defaults = UserDefaults.standard
            
@@ -45,16 +55,11 @@ class WaterViewController: UIViewController {
     var calculate_progress: Double = 0
     
 
-    @IBOutlet weak var displayLabel: UILabel!
-        
-    @IBOutlet weak var textField: UITextField!
-    
-    
-    @IBOutlet weak var waterprogress: UIProgressView!
-    
-    @IBOutlet weak var addButton: UIButton!
+   
 
     @IBAction func saveButtonClick(sender: AnyObject) {
+        
+        self.view.endEditing(true)
         
         if isStringAnInt(string: textField.text!) == true {
             toAdd = Double(textField.text!)!
