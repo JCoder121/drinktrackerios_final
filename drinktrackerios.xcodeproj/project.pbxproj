@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		009B034923B05C8600395222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B034823B05C8600395222 /* AppDelegate.swift */; };
 		009B034B23B05C8600395222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B034A23B05C8600395222 /* SceneDelegate.swift */; };
-		009B034D23B05C8600395222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B034C23B05C8600395222 /* ViewController.swift */; };
+		009B034D23B05C8600395222 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B034C23B05C8600395222 /* WaterViewController.swift */; };
 		009B035023B05C8600395222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B034E23B05C8600395222 /* Main.storyboard */; };
 		009B035323B05C8600395222 /* drinktrackerios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009B035123B05C8600395222 /* drinktrackerios.xcdatamodeld */; };
 		009B035523B05C8A00395222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B035423B05C8A00395222 /* Assets.xcassets */; };
 		009B035823B05C8A00395222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B035623B05C8A00395222 /* LaunchScreen.storyboard */; };
+		009B036223B1B36900395222 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B036123B1B36900395222 /* GIFViewController.swift */; };
+		009B036523B1B47900395222 /* waterfall.gif in Resources */ = {isa = PBXBuildFile; fileRef = 009B036423B1B47900395222 /* waterfall.gif */; };
+		009B036723B1B56400395222 /* true_water.gif in Resources */ = {isa = PBXBuildFile; fileRef = 009B036623B1B56400395222 /* true_water.gif */; };
+		009B036923B1B71500395222 /* true_test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 009B036823B1B71500395222 /* true_test.gif */; };
+		5937C601946D8BDDCBB08740 /* Pods_drinktrackerios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B254A2DD57F16D012DD0EC88 /* Pods_drinktrackerios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		009B034523B05C8600395222 /* drinktrackerios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinktrackerios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009B034823B05C8600395222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009B034A23B05C8600395222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		009B034C23B05C8600395222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		009B034C23B05C8600395222 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 		009B034F23B05C8600395222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		009B035223B05C8600395222 /* drinktrackerios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = drinktrackerios.xcdatamodel; sourceTree = "<group>"; };
 		009B035423B05C8A00395222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009B035723B05C8A00395222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009B035923B05C8A00395222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009B036123B1B36900395222 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		009B036423B1B47900395222 /* waterfall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = waterfall.gif; sourceTree = SOURCE_ROOT; };
+		009B036623B1B56400395222 /* true_water.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = true_water.gif; sourceTree = SOURCE_ROOT; };
+		009B036823B1B71500395222 /* true_test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = true_test.gif; sourceTree = SOURCE_ROOT; };
+		4AC528552009FDD829645839 /* Pods-drinktrackerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drinktrackerios.release.xcconfig"; path = "Target Support Files/Pods-drinktrackerios/Pods-drinktrackerios.release.xcconfig"; sourceTree = "<group>"; };
+		7A5F53838396C828B7717C1A /* Pods-drinktrackerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drinktrackerios.debug.xcconfig"; path = "Target Support Files/Pods-drinktrackerios/Pods-drinktrackerios.debug.xcconfig"; sourceTree = "<group>"; };
+		B254A2DD57F16D012DD0EC88 /* Pods_drinktrackerios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drinktrackerios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5937C601946D8BDDCBB08740 /* Pods_drinktrackerios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				009B034723B05C8600395222 /* drinktrackerios */,
 				009B034623B05C8600395222 /* Products */,
+				71D649AD665AD07DEE4EB332 /* Pods */,
+				D7B88A28A0C7039531260D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +73,10 @@
 		009B034723B05C8600395222 /* drinktrackerios */ = {
 			isa = PBXGroup;
 			children = (
+				009B036323B1B46000395222 /* gif_info */,
 				009B034823B05C8600395222 /* AppDelegate.swift */,
 				009B034A23B05C8600395222 /* SceneDelegate.swift */,
-				009B034C23B05C8600395222 /* ViewController.swift */,
+				009B034C23B05C8600395222 /* WaterViewController.swift */,
 				009B034E23B05C8600395222 /* Main.storyboard */,
 				009B035423B05C8A00395222 /* Assets.xcassets */,
 				009B035623B05C8A00395222 /* LaunchScreen.storyboard */,
@@ -70,6 +86,34 @@
 			path = drinktrackerios;
 			sourceTree = "<group>";
 		};
+		009B036323B1B46000395222 /* gif_info */ = {
+			isa = PBXGroup;
+			children = (
+				009B036123B1B36900395222 /* GIFViewController.swift */,
+				009B036623B1B56400395222 /* true_water.gif */,
+				009B036423B1B47900395222 /* waterfall.gif */,
+				009B036823B1B71500395222 /* true_test.gif */,
+			);
+			path = gif_info;
+			sourceTree = "<group>";
+		};
+		71D649AD665AD07DEE4EB332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F53838396C828B7717C1A /* Pods-drinktrackerios.debug.xcconfig */,
+				4AC528552009FDD829645839 /* Pods-drinktrackerios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7B88A28A0C7039531260D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B254A2DD57F16D012DD0EC88 /* Pods_drinktrackerios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009B035C23B05C8A00395222 /* Build configuration list for PBXNativeTarget "drinktrackerios" */;
 			buildPhases = (
+				0B0080A15F62320C2E1D076B /* [CP] Check Pods Manifest.lock */,
 				009B034123B05C8600395222 /* Sources */,
 				009B034223B05C8600395222 /* Frameworks */,
 				009B034323B05C8600395222 /* Resources */,
+				CA052BE4BD17C42B07AD3E7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,20 +174,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009B036923B1B71500395222 /* true_test.gif in Resources */,
 				009B035823B05C8A00395222 /* LaunchScreen.storyboard in Resources */,
 				009B035523B05C8A00395222 /* Assets.xcassets in Resources */,
 				009B035023B05C8600395222 /* Main.storyboard in Resources */,
+				009B036523B1B47900395222 /* waterfall.gif in Resources */,
+				009B036723B1B56400395222 /* true_water.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0080A15F62320C2E1D076B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-drinktrackerios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA052BE4BD17C42B07AD3E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drinktrackerios/Pods-drinktrackerios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drinktrackerios/Pods-drinktrackerios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drinktrackerios/Pods-drinktrackerios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		009B034123B05C8600395222 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009B034D23B05C8600395222 /* ViewController.swift in Sources */,
+				009B036223B1B36900395222 /* GIFViewController.swift in Sources */,
+				009B034D23B05C8600395222 /* WaterViewController.swift in Sources */,
 				009B034923B05C8600395222 /* AppDelegate.swift in Sources */,
 				009B034B23B05C8600395222 /* SceneDelegate.swift in Sources */,
 				009B035323B05C8600395222 /* drinktrackerios.xcdatamodeld in Sources */,
@@ -286,6 +378,7 @@
 		};
 		009B035D23B05C8A00395222 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5F53838396C828B7717C1A /* Pods-drinktrackerios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffchen.drinktrackerios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = drinktrackerios;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +397,7 @@
 		};
 		009B035E23B05C8A00395222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC528552009FDD829645839 /* Pods-drinktrackerios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffchen.drinktrackerios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = drinktrackerios;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
